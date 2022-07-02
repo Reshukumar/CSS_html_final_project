@@ -42,7 +42,7 @@ h1{
 
 .lead_title{  
   position: relative;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   
   
 }
@@ -91,7 +91,7 @@ line-height: 20px;
 .main_container{
 width: 95%;
 height: auto;
-border: 2px solid blue;
+/* border: 2px solid blue; */
 margin: 0px auto;
 background-color: #f7f8fc;
 
@@ -277,7 +277,11 @@ background-color: #f7f8fc;
 
 
 }
-
+.flex-cc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .fa {
     width: 60px;
@@ -563,7 +567,13 @@ background-color: #f7f8fc;
 .social_link fa{
   background-color: #e47312;
 }
-
+.nbx .lead{
+  text-align: justify;
+  margin-bottom: 15px;
+  color: rgb(204, 204, 204);
+  font-size: 16px;
+  margin-top: 10px;
+}
 .content{
   background-color: white;
   padding: 5%;
@@ -591,6 +601,7 @@ background-color: #f7f8fc;
 .client_testim_info{
   margin-top:5%;
   margin-bottom:10%;
+  padding: 20px 0;
 }
 
 .blogpost{
@@ -611,7 +622,9 @@ background-color: #f7f8fc;
   max-height: 300px;
  
 }
-
+.testi_item{
+  flex: 1;
+ }
 .date_info{
   position: absolute;
   right: 0px;
@@ -784,5 +797,70 @@ background-color: #f7f8fc;
   .column1 {
     width: 30%;
   }
- 
- 
+  .sec{margin-bottom: 10%;}
+ .sec-pb{
+   padding: 10% 10px;   
+ }
+
+ /* code for testi */
+ .tessec{
+  display: flex;
+  background-color: #f7f8fc;
+  padding: 0 40px 0 0;
+  gap: 10px;
+}
+.tessec .tesbx{
+ flex: 1;
+}
+.testi{
+ display: flex;
+ gap: 20px;
+ flex-wrap: nowrap;
+ padding: 50px 0;
+}
+
+.nbx{
+ position: relative;
+ padding: 15px 20px;
+ background: #fff;
+ margin-top: 50px;
+ text-align: center;
+}
+
+.nbx h4{
+ font-size: 22px;
+ margin-top: 20px;
+ margin-bottom: 10px;
+}
+.nbx .auth{
+  font-size: 14px;
+  color: #ccc;
+}
+.leadtest{
+ position: relative;
+ z-index: 99;
+}
+.mt50{
+ margin-top: 20%;
+}
+.tesbx .leadtest a {
+ cursor: pointer;
+}
+.tesbx .leadtest a span:hover {
+  border-bottom-color: #e47312;
+}
+.flMid{
+  width: 50px;
+ height: 50px;
+ background-color: #e47312;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 50%;
+ margin: -40px auto 0 auto;
+}
+.flMid span{
+ font-size: 40px;
+  margin-top: 50%;
+ color: #fff;
+}
